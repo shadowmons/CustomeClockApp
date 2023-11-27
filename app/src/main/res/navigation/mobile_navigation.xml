@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_alarm">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.customeclockapp.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_clock"
+        android:name="com.example.customeclockapp.ui.clock.ClockFragment"
+        android:label="@string/title_clock"
+        tools:layout="@layout/fragment_clock" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.customeclockapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_stopwatch"
+        android:name="com.example.customeclockapp.ui.stopWatch.StopwatchFragment"
+        android:label="@string/title_stopwatch"
+        tools:layout="@layout/fragment_stopwatch" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.customeclockapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_alarm"
+        android:name="com.example.customeclockapp.ui.alarm.AlarmFragment"
+        android:label="@string/title_alarm"
+        tools:layout="@layout/fragment_alarm" />
 </navigation>

@@ -1,16 +1,16 @@
-package com.example.customeclockapp.ui.home;
+package com.example.customeclockapp.ui.alarm;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class AlarmViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public AlarmViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("here shoudl be an alarm menu");
     }
 
     public LiveData<String> getText() {
